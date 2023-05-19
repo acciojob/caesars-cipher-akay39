@@ -13,7 +13,17 @@ const lookup = {
 function rot13(encodedStr){
    let decodedArr = []; // Your Result goes here
   // Only change code below this line
-
+	for(let i =0; i<inputString.length; i++){
+		if(lookup[inputString[i]]===undefined){
+			decodedArr.push(inputString[i]);
+		}
+		else{
+			decodedArr.push(lookup[inputString[i]]);
+			
+		}
+		return decodedArr;
+	}
+console.log(encode("ABC"));
   return ;//return decodedArr
 }
 
