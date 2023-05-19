@@ -23,7 +23,7 @@ function rot13(encodedStr){
 		}
 		return decodedArr;
 	}
-console.log(encode("ABC"));
+
   return ;//return decodedArr
 }
 
